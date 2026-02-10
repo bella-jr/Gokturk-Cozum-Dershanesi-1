@@ -1,3 +1,5 @@
+document.getElementById('year').textContent = new Date().getFullYear();
+
 (function ($) {
     "use strict";
     $(document).ready(function () {
@@ -14,11 +16,11 @@
         /*
        Jquery Header Search 
        ============================*/
-       $('.te-search-btn').on('click', function (e) {
-        e.preventDefault();
-        $('body').css('overflow', 'hidden');
+        $('.te-search-btn').on('click', function (e) {
+            e.preventDefault();
+            $('body').css('overflow', 'hidden');
 
-        $('.te-search-form-wrapper').addClass('te-active');
+            $('.te-search-form-wrapper').addClass('te-active');
         });
         $('.te-search-close').on('click', function (e) {
             e.preventDefault();
@@ -26,8 +28,8 @@
             $('.te-search-form-wrapper').removeClass('te-active');
         });
 
-        window.onclick = function(e){
-            if( e.target.matches(".te-search-form-wrapper") ){
+        window.onclick = function (e) {
+            if (e.target.matches(".te-search-form-wrapper")) {
                 $('.te-search-form-wrapper').removeClass('te-active');
             }
         }
@@ -60,14 +62,14 @@
         if (100 < $(window).scrollTop()) {
             $(".te-header-menu-area.te-sticky-header").addClass("te-sticky_menu");
         }
-        if( height  > 1400 ) {
+        if (height > 1400) {
             const nav = $(".te-header-menu-area.te-sticky-header");
             let scrolled = false;
             $(window).on("scroll", function () {
                 if (100 < $(window).scrollTop() && !scrolled) {
                     nav
                         .addClass("te-sticky_menu animated fadeIn")
-                        .animate({"margin-top": "0px"});
+                        .animate({ "margin-top": "0px" });
                     scrolled = true;
                 }
                 if (100 > $(window).scrollTop() && scrolled) {
@@ -80,7 +82,7 @@
         /*
         Jquery Empty Post Content Hide
         ============================*/
-        $('.blog-area .te-post-content p').filter(function() {
+        $('.blog-area .te-post-content p').filter(function () {
             return /\u00A0/.test($(this).text());
         }).hide();
 
@@ -88,18 +90,18 @@
         /*
         Skill Progress Bar Js
         ============================*/
-        $('.skill-progressbar').one('inview', function(event, isInView) {
+        $('.skill-progressbar').one('inview', function (event, isInView) {
             if (isInView) {
-                $('.progress-inner').each(function() {
+                $('.progress-inner').each(function () {
                     $(this).find('.progress-content').animate({
-                        width:$(this).attr('data-percentage')
-                    },2000);
+                        width: $(this).attr('data-percentage')
+                    }, 2000);
 
                     $(this).find('.progress-number-count').animate(
-                        {left:$(this).attr('data-percentage')},
+                        { left: $(this).attr('data-percentage') },
                         {
                             duration: 2000,
-                            step: function(now) {
+                            step: function (now) {
                                 let data = Math.round(now);
                                 $(this).find('.progress-percent').html(data + '%');
                             }
@@ -232,11 +234,11 @@
             ],
         });
 
-        $('#team_slider_prev').on('click', function(e) {
+        $('#team_slider_prev').on('click', function (e) {
             e.preventDefault();
             $('.slick-prev').trigger('click');
         });
-        $('#team_slider_next').on('click', function(e) {
+        $('#team_slider_next').on('click', function (e) {
             e.preventDefault();
             $('.slick-next').trigger('click');
         });
@@ -293,11 +295,11 @@
             ],
         });
 
-        $('#testimonial_slider_prev').on('click', function(e) {
+        $('#testimonial_slider_prev').on('click', function (e) {
             e.preventDefault();
             $('.slick-prev').trigger('click');
         });
-        $('#testimonial_slider_next').on('click', function(e) {
+        $('#testimonial_slider_next').on('click', function (e) {
             e.preventDefault();
             $('.slick-next').trigger('click');
         });
@@ -305,50 +307,50 @@
         /*
        Testimonial Slider Two
        ============================*/
-       $("#testimonial_two").slick({
-        slidesToShow: 1,
-        infinite: true,
-        autoplay: false,
-        draggable: true,
-        arrows: true,
-        slidesToScroll: 2,
-        loop: true,
-        dots: false,
-        speed: 1500,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    autoplay: true,
-                    slidesToShow: 1,
-                },
-            }
-        ],
-    });
+        $("#testimonial_two").slick({
+            slidesToShow: 1,
+            infinite: true,
+            autoplay: false,
+            draggable: true,
+            arrows: true,
+            slidesToScroll: 2,
+            loop: true,
+            dots: false,
+            speed: 1500,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        autoplay: true,
+                        slidesToShow: 1,
+                    },
+                }
+            ],
+        });
 
-       /*
-       Testimonial Slider Two
-       ============================*/
-       $("#portfolio_slider_two").slick({
-        slidesToShow: 2,
-        infinite: true,
-        autoplay: false,
-        draggable: true,
-        arrows: false,
-        slidesToScroll: 2,
-        loop: true,
-        dots: false,
-        speed: 1500,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    autoplay: true,
-                    slidesToShow: 1,
-                },
-            }
-        ],
-    });
+        /*
+        Testimonial Slider Two
+        ============================*/
+        $("#portfolio_slider_two").slick({
+            slidesToShow: 2,
+            infinite: true,
+            autoplay: false,
+            draggable: true,
+            arrows: false,
+            slidesToScroll: 2,
+            loop: true,
+            dots: false,
+            speed: 1500,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        autoplay: true,
+                        slidesToShow: 1,
+                    },
+                }
+            ],
+        });
         /*
        Related Portfolio Slider
        ============================*/
@@ -490,31 +492,31 @@
 
 
         /*
-		Portfolio Isotope Js
-		============================*/	 
-		$('.te-portfolio-filter').on( 'click', 'li', function() {
+        Portfolio Isotope Js
+        ============================*/
+        $('.te-portfolio-filter').on('click', 'li', function () {
             $("li").removeClass("active");
-            $(this).addClass("active");			
-              var filterValue = $(this).attr('data-filter');
-              $grid.isotope({ filter: filterValue });
-            });				
-            var $grid = $('.te-portfolio-isotope-wrapper').isotope({
-              itemSelector: '.te-single-isotop',
-              percentPosition: true,
-              masonry: {
+            $(this).addClass("active");
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
+        });
+        var $grid = $('.te-portfolio-isotope-wrapper').isotope({
+            itemSelector: '.te-single-isotop',
+            percentPosition: true,
+            masonry: {
                 columnWidth: '.te-single-isotop'
-              }
-            });
-            $grid.imagesLoaded().progress( function() {
-                $grid.isotope('layout');
-            });
+            }
+        });
+        $grid.imagesLoaded().progress(function () {
+            $grid.isotope('layout');
+        });
         /*
         Preeloader
         ============================*/
         $(window).on("load", function () {
             $("#preloader").fadeOut();
             $("#preloader-status").delay(200).fadeOut("slow");
-            $("body").delay(200).css({"overflow-x": "hidden"});
+            $("body").delay(200).css({ "overflow-x": "hidden" });
         });
 
     });
