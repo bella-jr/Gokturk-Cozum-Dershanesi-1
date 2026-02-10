@@ -43,7 +43,7 @@ Footer
 
 .te-slider-title,
 .title {
-  font-family: 'roboto', sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .text-primary {
@@ -161,7 +161,7 @@ body {
   height: 100%;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #595959;
   vertical-align: baseline;
   line-height: 28px;
@@ -193,7 +193,7 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #0b4d9e;
   font-style: normal;
   -webkit-transition: all 0.5s ease-out;
@@ -2539,7 +2539,7 @@ blockquote {
 }
 
 blockquote p {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: #0b4d9e;
   line-height: 32px;
@@ -2561,7 +2561,7 @@ blockquote p a {
 }
 
 blockquote footer {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 900;
   text-transform: capitalize;
@@ -2736,7 +2736,7 @@ nav.wp-calendar-nav a:hover {
   font-weight: 900;
   margin-bottom: 30px;
   color: #0b4d9e;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .blog-search-content .wp-block-search input,
@@ -3593,7 +3593,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .header-top .te-header-contact-info span i {
@@ -3615,7 +3615,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -3628,7 +3628,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   padding: 12px 46px;
   font-size: 18px;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
   margin-bottom: -100px;
   display: inline-block;
@@ -3670,7 +3670,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .header-top .te-social-profile .te-social-profile-label {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 27.2px;
@@ -3929,7 +3929,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.5s ease-out;
   position: relative;
   color: #000;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: initial;
@@ -4131,11 +4131,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .te-header-btn .te-cta-btn span {
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .te-header-btn .te-cta-btn a {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
   color: #000;
 }
@@ -4470,7 +4470,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #0b4d9e;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 100%;
 }
 
@@ -4489,7 +4489,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #0b4d9e;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .te-menu-sidebar-area .te-menu-sidebar-content .te-menu-sidebar-single-widget .te-header-contact-info span a:hover {
@@ -4745,7 +4745,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .slider-area .te-single-slider .te-slider-content-wrapper .te-slider-content .te-slider-short-title {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 26px;
@@ -4759,7 +4759,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .slider-area .te-single-slider .te-slider-content-wrapper .te-slider-content .te-slider-title {
   color: #ffffff;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 75px;
   font-weight: 900;
   line-height: 70px;
@@ -5598,7 +5598,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .te-icon-card .content .title {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 26px;
   line-height: 36px;
@@ -5607,7 +5607,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .te-icon-card .content .desc {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -5979,7 +5979,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-style: normal;
   font-weight: 900;
   line-height: 0;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
   margin-bottom: 0;
 }
@@ -6220,7 +6220,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .te-counter-card .te-counter-item .number {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 50px;
   line-height: 55px;
@@ -6247,7 +6247,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .te-counter-card .te-counter-item .title {
   margin: 0;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -6383,7 +6383,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .te-process-step .content .te-read-more .te-read-more-btn {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 26px;
@@ -7100,7 +7100,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .te-post-item.format-quote blockquote cite a {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
@@ -7223,7 +7223,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .te-post-item .te-social-share .te-social-share-title {
   font-size: 16px;
   font-weight: 900;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #0b4d9e;
   margin-right: 5px;
   text-transform: uppercase;
@@ -7238,7 +7238,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 16px;
   font-weight: 900;
   display: inline-block;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #0b4d9e;
   margin-bottom: 0;
   margin-right: 30px;
@@ -7687,7 +7687,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 26px;
   font-weight: 900;
   line-height: 39px;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 7px;
   color: #0b4d9e;
   -webkit-transition: all 0.5s ease-out;
@@ -7990,7 +7990,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .te-author-info .te-author-post a {
   font-size: 16px;
   font-weight: 900;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #0b4d9e;
   border-bottom: 2px solid #E1E1E1;
   margin-top: 30px;
@@ -8026,7 +8026,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #595959;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .skill-progressbar .progressbar-number {
@@ -8050,7 +8050,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   letter-spacing: 0px;
   font-weight: 400;
   text-transform: none;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #595959;
 }
 
@@ -8344,7 +8344,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .price-card .card-title .sub-title {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -8357,7 +8357,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 26px;
   line-height: 30px;
   color: #0b4d9e;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8372,7 +8372,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 12px;
   color: #0b4d9e;
   background-color: #ED1A25;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   border-radius: 3px;
   padding: 0 7px;
   display: inline-block;
@@ -8392,7 +8392,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .price-card .price .price-heading {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 50px;
   font-weight: 900;
   line-height: 55px;
@@ -8415,7 +8415,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .price-card .price .price-desc {
   color: #595959;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -8451,7 +8451,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .price-card .list ul li {
   list-style: none;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #0b4d9e;
@@ -8560,7 +8560,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 50px;
   line-height: 55px;
   font-weight: 900;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #0b4d9e;
   margin-bottom: 0;
 }
@@ -8605,7 +8605,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .te-section-title .te-section-desc {
   font-size: 18px;
   font-weight: 400;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #0b4d9e;
   margin-bottom: 0;
 }
@@ -8655,7 +8655,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .page-heading h3,
 .page-heading .page-title {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -8692,7 +8692,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .breadcrumb-list {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -8749,7 +8749,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .breadcrumb-list ul li a {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   text-align: center;
   color: #ffffff;
@@ -9168,7 +9168,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .te-blog-post-nav .te-post-navigation .text span {
   font-size: 18px;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   font-weight: 400;
   display: block;
@@ -9650,7 +9650,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .service-sidebar .widget .pdf-download-btn .content .title {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: initial;
@@ -9660,7 +9660,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .service-sidebar .widget .pdf-download-btn .content .sub-title {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: initial;
@@ -10043,7 +10043,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 12px 32px;
   text-align: center;
   font-weight: 900;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   position: relative;
   z-index: 1;
@@ -10130,7 +10130,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 900;
   margin-bottom: 30px;
   color: #0b4d9e;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .widget .wp-block-search input,
@@ -10584,7 +10584,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 20px;
   line-height: initial;
   color: #0b4d9e;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .te_widget_latest_post ul li .te-latest-post-desc .te-latest-post-title a {
@@ -10595,7 +10595,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   text-transform: capitalize;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .te_widget_latest_post ul li .te-latest-post-desc .te-latest-post-title a:hover {
@@ -10697,7 +10697,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #0b4d9e;
   padding: 12px 104px;
   font-weight: 600;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   position: relative;
   z-index: 1;
@@ -10782,7 +10782,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 21px;
   margin-bottom: 5px;
   font-weight: 900;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #0b4d9e;
 }
 
@@ -10795,7 +10795,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #9ba8c3;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .wp-block-comments .wp-block-comment-template li .wp-block-columns .wp-block-te-comment-reply a {
@@ -10886,7 +10886,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 20px;
   margin-bottom: 5px;
   font-weight: 700;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10902,7 +10902,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #595959;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -10970,7 +10970,7 @@ ul.children {
 .te-post-comments-title .sub-title {
   font-size: 18px;
   font-weight: 900;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ED1A25;
   display: inline-block;
   width: 100%;
@@ -11000,7 +11000,7 @@ ul.children {
 
 .te-post-comments-title h2 small {
   font-size: 18px;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ED1A25;
   text-transform: capitalize;
 }
@@ -11028,7 +11028,7 @@ ul.children {
 
 .comment-reply-title small {
   font-size: 18px;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ED1A25;
   text-transform: capitalize;
 }
@@ -11103,7 +11103,7 @@ ul.children {
   gap: 12px;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .te-comment-respond .te-comment-form-cookies-consent,
@@ -11132,7 +11132,7 @@ ul.children {
   font-size: 18px;
   font-weight: 400;
   background-color: #ffffff;
-  font-family: "Yantramanav", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .te-comment-respond *::-webkit-input-placeholder,
@@ -11166,7 +11166,7 @@ ul.children {
   font-size: 18px;
   font-weight: 400;
   background-color: #ffffff;
-  font-family: "Yantramanav", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   height: 190px;
   margin-bottom: 30px;
 }
@@ -11356,7 +11356,7 @@ ul.children {
   font-weight: 900;
   line-height: 26px;
   color: #0b4d9e;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
 }
 
@@ -11365,7 +11365,7 @@ ul.children {
   line-height: 18px;
   font-weight: 400;
   color: #595959;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
 }
 
@@ -11904,7 +11904,7 @@ ul.children {
   font-weight: 900;
   line-height: 80px;
   white-space: nowrap;
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #0b4d9e;
 }
 
@@ -13058,7 +13058,7 @@ ul.children {
 }
 
 .te-footer-widget-title {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 27px;
   font-style: normal;
   font-weight: 700;
@@ -13202,7 +13202,7 @@ ul.children {
 }
 
 .te-footer-widget .te-footer-widget-info .single-info-wrapper .single-info .title {
-  font-family: "Yantramanav", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
