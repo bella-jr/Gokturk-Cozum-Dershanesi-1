@@ -3750,7 +3750,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .te-header-menu-area.te-sticky_menu .te-logo .te-sticky-logo img {
-  height: 80px;
+  height: 60px;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -4744,6 +4744,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   .slider-area .te-single-slider .te-slider-container .te-slider-column {
     width: 80%;
   }
+  
 }
 
 .slider-area .te-single-slider .te-slider-content-wrapper {
@@ -4939,7 +4940,26 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-area .te-single-slider .te-slider-image .slider-feature {
+    width: 105%;
+  }
+  .slider-area .te-single-slider .te-slider-image .slider-feature .single-slider-feature .slider-feature-content .title{
     width: 100%;
+    text-align: center;
+  }
+   .slider-area .te-single-slider .te-slider-image{
+    text-align: center;
+    align-items: center;
+     display: flex;
+     justify-content: center;
+   }
+   .single-slider-feature{
+    width: 100% !important;
+   }
+  .slider-feature-img{
+    display: none !important;
+  }
+  .te-slider-short-desc{
+    display: none !important;
   }
 }
 
@@ -4969,13 +4989,13 @@ body.admin-bar .header-menu-area.sticky_menu {
 .slider-area .te-single-slider .te-slider-image .slider-feature .single-slider-feature .slider-feature-content .title {
   color: #ffffff;
   margin-bottom: 0;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 900;
   line-height: 55px;
 }
 
 .slider-area .te-single-slider .te-slider-image .slider-feature .single-slider-feature .slider-feature-content .sub-title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   color: #ffffff;
@@ -6274,6 +6294,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   top: 0;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  width: 100%;
+  height: 300px;
 }
 
 @media (max-width: 991px) {
@@ -6283,7 +6305,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .te-process-step:hover {
-  top: -5px;
+  top: -10px; 
 }
 
 .te-process-step:hover .icon i {
@@ -13746,3 +13768,19 @@ ul.children {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* MOBİLDE 2x2 YAP */
+@media (max-width: 768px) {
+  .slider-feature {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .single-slider-feature {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+  }
+}
+
