@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ön Kayıt Formu - Göktürk Çözüm Kurs Merkezi</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    body {
+      background: #fff;
+
+    }
+
+    .onkayit-wrapper {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+    }
+
+    .bg-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.5;
+    }
+
+    .onkayit-card {
+      background: #feeeee;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, .08);
+      height: 100%;
+      transform: scale(.7);
+      padding: 30px;
+      margin: 0;
+    }
+
+    .onkayit-card h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .onkayit-card p {
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .form-control,
+    select,
+    textarea {
+      border-radius: 8px;
+      padding: 12px;
+    }
+
+    .btn-primary {
+      border-radius: 8px;
+      padding: 12px 24px;
+      font-weight: 600;
+    }
+
+    .success-message {
+      display: none;
+      margin-top: 20px;
+      padding: 15px;
+      background: #e9f9ee;
+      border: 1px solid #b6e3c1;
+      border-radius: 8px;
+      color: #1b7a34;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="onkayit-wrapper">
+    <img src="images/slider/slider-1.jpg" class="bg-img" alt="">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="onkayit-card">
+
+            <h1>Ön Kayıt Formu</h1>
+            <form id="onKayitForm">
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label>Ad Soyad *</label>
+                  <input type="text" name="name" class="form-control" required>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <label>Telefon *</label>
+                  <input type="tel" name="phone" class="form-control" required>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label>E-posta</label>
+                  <input type="email" name="email" class="form-control">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <label>Program</label>
+                  <select name="program" class="form-control">
+                    <option>12. Sınıf YKS Hazırlık</option>
+                    <option>Mezun Öğrencilere YKS</option>
+                    <option>11. Sınıf Dersleri</option>
+                    <option>10. Sınıf Dersleri</option>
+                    <option>Özel Ders</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label>Mesaj</label>
+                <textarea name="message" class="form-control" rows="4"></textarea>
+              </div>
+
+              <div class="mb-3">
+                <img src="images/resimler/kod.jpg" alt="">
+                <br>
+                <label>Doğrulama Kodu</label>
+                <input type="text" class="form-control" placeholder="Doğrulama kodunu yazın" required>
+              </div>
+
+              <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" required>
+                <label class="form-check-label">
+                  Bilgilendirme ve iletişim izni veriyorum.
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Ön Kayıt Gönder
+              </button>
+              <a href="index.html" class="btn btn-primary">Ana Sayfaya Git</a>
+
+              <div class="success-message" id="successMsg">
+                ✔ Başvurunuz alınmıştır. En kısa sürede sizinle iletişime geçeceğiz.
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("onKayitForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const name = this.name.value.trim();
+      const phone = this.phone.value.trim();
+
+      if (!name || !phone) {
+        alert("Lütfen zorunlu alanları doldurun.");
+        return;
+      }
+
+      document.getElementById("successMsg").style.display = "block";
+      this.reset();
+    });
+  </script>
+
+</body>
+
+</html>
