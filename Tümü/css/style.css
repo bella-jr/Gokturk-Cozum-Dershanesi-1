@@ -3562,7 +3562,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   flex-wrap: wrap;
   gap: 5px 60px;
 }
-
+.te-header-contact-info span a{
+  font-size: 16px !important;
+}
 .header-top .header-top-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -14594,6 +14596,11 @@ ul.children {
   padding: 30px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
   margin-bottom: 30px;
+}
+.info-widget{
+  margin-bottom: 30px;
+  height: 100%;
+  width: 100%;
 }
 
 .sidebar-widget h3 {
